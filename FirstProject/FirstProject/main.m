@@ -7,6 +7,12 @@
 
 #import <Foundation/Foundation.h>
 
+@interface Vehicle: NSObject
+@end
+
+@implementation Vehicle
+@end
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
