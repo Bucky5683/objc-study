@@ -10,7 +10,9 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        int wheel = 4; // int float double long - primitive type
+        int seats = 2;
+        NSLog(@"wheels : %i, seats: %i", wheel, seats);
     }
     return EXIT_SUCCESS;
 }
